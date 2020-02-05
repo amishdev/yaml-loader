@@ -1,0 +1,13 @@
+{
+  "name": "amish-yaml-loader",
+  "version": "1.0.0",
+  "description": "A webpack loader for Yaml files",
+  "main": "index.js",
+  "repository": "git@github.com:amishdev/yaml-loader.git",
+  "author": "Christian <christianpavilonis@outlook.com>",
+  "license": "MIT",
+
+  "dependencies": {
+    "js-yaml": "^3.13.1"
+  }
+}
