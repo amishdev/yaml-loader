@@ -5,7 +5,7 @@ module.exports = function yamlLoader(source) {
         this.cacheable();
     }
 
-    let result = yaml.load(source);
+    let result = yaml.safeLoad(source);
 
     return JSON.stringify(result);
 };
